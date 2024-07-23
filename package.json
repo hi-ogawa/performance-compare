@@ -24,10 +24,13 @@
   },
   "dependencies": {
     "clsx": "^1.2.1",
+    "@hiogawa/react-server": "0.3.4",
+    "next": "npm:@hiogawa/react-server-next@0.0.11",
+    "react": "rc",
+    "react-dom": "rc",
+    "react-server-dom-webpack": "rc",
     "playwright": "^1.36.0",
     "puppeteer": "^21.5.2",
-    "react": "18",
-    "react-dom": "18",
     "strip-ansi": "^7.1.0",
     "tree-kill": "^1.2.2"
   },
@@ -56,14 +59,14 @@
     "css-loader": "^6.7.3",
     "esbuild": "^0.18.11",
     "html-webpack-plugin": "^5.5.0",
-    "next": "14.0.3",
     "parcel": "^2.9.3",
     "react-refresh": "^0.14.0",
     "style-loader": "^3.3.1",
     "swc-loader": "^0.2.6",
-    "vite": "6.0.0-alpha.11",
+    "vite": "^5",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
-  }
+  },
+  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
 }
